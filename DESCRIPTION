@@ -1,6 +1,6 @@
 Package: spiritR
 Title: Template for Clinical Trial Protocol
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Aaron",
            family = "Conway",
@@ -14,17 +14,19 @@ Description: Contains an R Markdown template for a clinical trial
     Also contains functions to create a xml document from the template and 
     upload it to clinicaltrials.gov<https://www.clinicaltrials.gov/> for 
     trial registration.
+URL: https://github.com/awconway/spiritR
+BugReports: https://github.com/awconway/spiritR/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: xml2, httr, magrittr, tibble
+Imports: xml2, httr, magrittr
 RoxygenNote: 6.1.1
-Suggests: testthat, knitr, rmarkdown, pkgdown
+Suggests: testthat, knitr, rmarkdown, pkgdown, covr
 VignetteBuilder: knitr
 Language: en-US
 NeedsCompilation: no
-Packaged: 2019-08-09 18:10:55 UTC; aaronconway
+Packaged: 2019-08-19 12:34:36 UTC; aaronconway
 Author: Aaron Conway [aut, cre] (<https://orcid.org/0000-0002-9583-8636>)
 Maintainer: Aaron Conway <aaron.conway@utoronto.ca>
 Repository: CRAN
-Date/Publication: 2019-08-10 09:30:07 UTC
+Date/Publication: 2019-08-19 13:10:02 UTC
